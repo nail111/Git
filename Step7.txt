@@ -1,0 +1,14 @@
+git reset --hard  - return project to the selectted commit and delete all commits before
+git reset --hard HEAD^^  - Two commits back
+git reset --hard HEAD~2  - Two commits back
+
+git reset --mixed  - return project to the selectted commit and all commits before go to untracked zone
+git reset --mixed HEAD^  - One commit back
+git reset --mixed HEAD~1  - One commit back
+// By default git reset is --mixed
+
+git reset --soft  - return project to the selectted commit and all commits before go to tracked zone
+git reset --soft HEAD^^^  - Three commits back
+git reset --soft HEAD~3  - Three commits back
+
+git reset [--hard,--mixed,--soft] <hash_code>
