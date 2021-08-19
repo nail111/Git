@@ -1,0 +1,3 @@
+git diff             - shows differences only untracked differences and last commits
+git diff --staged    - shows differences only tracked differences and last commits
+git diff <hash_code> 
