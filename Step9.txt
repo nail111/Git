@@ -1,0 +1,3 @@
+git remote add origin <https....>
+git remote -v   - shows origin
+git remote push origin master
