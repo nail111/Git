@@ -1,0 +1,7 @@
+git status
+git add <File1> <File2> ...
+git add .     - add all files
+git add *.java
+git add Folder/*.java
+git add Folder/
+git add "*.java"      - add all files with extension .java
