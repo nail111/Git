@@ -1,0 +1,5 @@
+git branch [name_of_branch] - Создание новой ветки
+git branch - Просмотр существующих веток
+git branch -d   - Удаление ветки
+git checkout [name_of_branch]  - Переключение между ветками
+git merge [name_of_branch]  - Сливание одной ветки с другой
