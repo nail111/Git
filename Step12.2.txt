@@ -1,0 +1,5 @@
+После: 
+git add .
+git commit --amend
+Нужно:
+git push --force origin master
