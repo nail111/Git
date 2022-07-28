@@ -1,0 +1,47 @@
+-------------1--------------
+Create folder:
+
+mkdir someFolder
+
+-------------2--------------
+Show all files:
+
+ls
+
+Show all files and hidden files:
+ls -a
+
+-------------3--------------
+Open:
+
+start .
+start Step1.txt
+
+-------------4--------------
+Clear log:
+
+clear
+
+-------------5--------------
+Show path directory:
+
+pwd
+
+-------------6--------------
+Change directory:
+
+cd someFolder
+cd ..   -> back to one folder
+
+-------------7--------------
+Create file:
+
+touch Test1.txt
+touch Test1.txt aa.pdf
+touch aa/BB.pdf
+
+-------------8--------------
+rm aa.pdf         --> Remove file
+rm -rf someFolder  --> Remove folder
+
+
