@@ -1,0 +1,38 @@
+-------------1--------------
+
+git config --global user.name "Nail"
+git config --global user.email "Nail@gmail.com"
+
+git config --global --replace-all user.name "Nail"
+git config --global --replace-all user.email "Nail@gmail.com"
+
+To check user.name and user.email:
+git config user.name
+git config user.email
+
+-------------2--------------
+
+git status
+
+-------------3--------------
+
+git init
+
+-------------4--------------
+
+git add <file1> <file2> ...
+git add .     --> add all files
+git add *.java
+git add someFolder/*.java
+git add someFolder/
+git add "*.java"      - add all files with extension .java
+
+-------------5--------------
+
+git commit -m "Message" 
+
+git commit -a -m "Message"  --> add and commit
+
+git commit --amend -m "Message"   --> change last commit (only last commit!)
+
+
