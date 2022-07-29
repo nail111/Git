@@ -1,0 +1,21 @@
+-------------1--------------
+
+git log
+git log --oneline
+
+-------------2--------------
+
+git branch [name_of_branch] - Создание новой ветки
+git branch - Просмотр существующих веток
+git branch -d   - Удаление ветки
+git branch -m [name_of_branch] --> Rename the branch
+
+-------------3--------------
+
+git switch [name_of_branch]  - Переключение между ветками
+git switch -c [name_of_branch]  - Создаёт ветку и переключается на неё
+
+-------------4--------------
+
+git merge [name_of_branch]  - Сливание одной ветки с другой
+:wq   --> Conflict merging
