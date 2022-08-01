@@ -1,0 +1,26 @@
+-------------1--------------
+
+git diff             - shows differences only untracked differences and last commits
+git diff --staged    - shows differences only tracked differences and last commits
+git diff HEAD        - shows differences between all canges untracked and tracked
+git diff <hash_code> 
+
+-------------2--------------
+
+git stash -  is super useful command that helps you save
+changes that you are not yet ready to commit.You can
+stash changes and then come back to them later.
+
+git stash pop - remove the most recently stashed
+changes in your stash and re-apply them to your
+working copy.
+
+-------------3--------------
+
+git checkout hash_code  --> To check commit. And if I want to do some changes then I should create a new branch and switch into that and do some changes there.
+git checkout HEAD~3     --> Refers to 3 commits before HEAD
+
+-------------4--------------
+
+git restore [filename]   --> Discarding changes
+git restore --staged [filename]  --> resore to the unstaged
