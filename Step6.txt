@@ -1,0 +1,8 @@
+-------------1--------------
+
+git push [name_of_remote] [name_of_branch]
+git pull [name_of_remote] [name_of_branch]
+git fetch [remote]                         --> updates local repo from github repo
+git fetch [remote] [branch]
+
+git pull = git fetch + git merge
